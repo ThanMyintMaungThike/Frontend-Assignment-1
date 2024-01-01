@@ -1,0 +1,29 @@
+.block {
+    margin:0 auto;    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block__name {
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.block__name__text {
+    width: 100%;
+}
+
+.block .block__name:nth-child(3) {
+    background: #ff4600;
+    color: #fff;
+}
+
+.block .block__name:nth-of-type(6) {
+    background-color: #ff0;
+    color: #403e3e;
+}
+.block .block__name:nth-of-type(11) {
+    background-color: #ff0;
+    color: #403e3e;
+}
